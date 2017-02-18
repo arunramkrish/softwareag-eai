@@ -62,6 +62,7 @@
         </correlationExpression>
         <to uri="bean:waiter?method=prepareDelivery"/>
         <to uri="bean:waiter?method=deliverCafes"/>
+        <to uri="demo:demoattheend"/>
       </aggregate>
     </route>
 
